@@ -1,7 +1,12 @@
+import AuthForm from './components/auth/AuthForm';
 import './App.css';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <AuthForm />
+    </>
+  );
 }
 
 export default App;

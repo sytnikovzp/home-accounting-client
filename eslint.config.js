@@ -40,7 +40,7 @@ export default [
           allow: ['_id'],
         },
       ],
-      'camelcase': ['warn', { properties: 'always' }],
+      camelcase: ['warn', { properties: 'always' }],
       'react/jsx-no-target-blank': 'off',
       'react/no-unescaped-entities': 'off',
       'react/prop-types': 'off',
