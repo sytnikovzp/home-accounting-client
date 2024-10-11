@@ -1,8 +1,8 @@
 import { useState } from 'react';
-// ====================================
+// ====================================================
 import api from '../../api';
 
-function AuthForm() {
+function LoginPage() {
   const [fullName, setFullName] = useState('');
 
   const [email, setEmail] = useState('');
@@ -112,4 +112,4 @@ function AuthForm() {
   );
 }
 
-export default AuthForm;
+export default LoginPage;

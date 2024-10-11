@@ -1,10 +1,10 @@
-import AuthForm from './components/auth/AuthForm';
+import LoginPage from './pages/LoginPage/LoginPage';
 import './App.css';
 
 function App() {
   return (
     <>
-      <AuthForm />
+      <LoginPage />
     </>
   );
 }
